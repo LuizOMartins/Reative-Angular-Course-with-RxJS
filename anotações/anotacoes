@@ -1,0 +1,8 @@
+Rodando servidor:
+- npm run server
+
+Rodando Front-end:
+npm start
+
+
+git config --global user.email luidigastech@gmail.com
