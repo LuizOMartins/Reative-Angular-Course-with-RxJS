@@ -1,3 +1,4 @@
+import { CourseService } from './../services/courses.service';
 import {Component, OnInit} from '@angular/core';
 import {Course, sortCoursesBySeqNo} from '../model/course';
 import {interval, noop, Observable, of, throwError, timer} from 'rxjs';
@@ -19,7 +20,7 @@ export class HomeComponent implements OnInit {
   advancedCourses: Course[];
 
 
-  constructor(private http: HttpClient, private dialog: MatDialog) {
+  constructor(private courseService:CourseService ,private dialog: MatDialog) {
 
   }
 

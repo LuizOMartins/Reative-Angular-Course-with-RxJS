@@ -6,3 +6,22 @@ npm start
 
 
 git config --global user.email luidigastech@gmail.com
+
+_____________________________________________
+
+Diferença entre Promesse e Observable:
+
+Programação Imperativa:
+
+
+Progrmamação Reativa:
+
+
+
+______________________________________________
+
+Criação de um Obervable Statelss(sem estado)
+- a camada de serviço retorna apenas Observable e não promesse, e não retem os dados, sem armazenar nenhum estado.
+
+
+______________________________________________
