@@ -25,3 +25,6 @@ Criação de um Obervable Statelss(sem estado)
 
 
 ______________________________________________
+
+Padrão de nome  de variaveis Observaveis: Terminadas com $
+const courses$

@@ -38,11 +38,9 @@ export class CourseDialogComponent implements AfterViewInit {
     }
 
     save() {
-
       const changes = this.form.value;
 
     }
-
     close() {
         this.dialogRef.close();
     }
