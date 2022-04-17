@@ -28,3 +28,12 @@ ______________________________________________
 
 Padrão de nome  de variaveis Observaveis: Terminadas com $
 const courses$
+
+______________________________________________
+
+
+Evitando solicitações HTTP duplicadas no Angular com o Operador RxJS shareReplay.
+
+
+Porque acontece mais de uma solicitação:
+- quanto mais assinatura serem feitas a um serviço observavel mais requisições ele irá fazer.
