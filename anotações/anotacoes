@@ -4,23 +4,21 @@ Rodando servidor:
 Rodando Front-end:
 npm start
 
-
 git config --global user.email luidigastech@gmail.com
 
 _____________________________________________
 
 Diferença entre Promesse e Observable:
 
-Programação Imperativa:
+Programação Imperativa: 
 
 
-Progrmamação Reativa:
+Programação  Reativa: 
 
 ______________________________________________
 
 Criação de um Obervable Statelss(sem estado)
 - a camada de serviço retorna apenas Observable e não promesse, e não retem os dados, sem armazenar nenhum estado.
-
 
 ______________________________________________
 
@@ -32,7 +30,6 @@ ______________________________________________
 
 Evitando solicitações HTTP duplicadas no Angular com o Operador RxJS shareReplay.
 
-
 Porque acontece mais de uma solicitação:
 - quanto mais assinatura serem feitas a um serviço observavel mais requisições ele irá fazer.
 shareReplay
@@ -42,6 +39,6 @@ ______________________________________________
 Padrões de Camada de Visualização no Angualar:
 Componentes Inteligentes vs Componente de Apresentação
 
-
-
 Exemplo  de modificação de dados estilo reativo (stateless)
+
+______________________________________________
